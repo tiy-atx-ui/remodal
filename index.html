@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Project Template</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="stylesheets/remodal.css">
+    <link rel="stylesheet" href="stylesheets/remodal-default-theme.css">
+    <link href="stylesheets/main.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="remodal-bg">
+      <div class="remodal" data-remodal-id="modal">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <h1>Remodal</h1>
+        <p>
+          Responsive, lightweight, fast, synchronized with CSS animations, fully customizable modal window plugin with declarative configuration and hash tracking.
+        </p>
+        <br>
+        <button data-remodal-action="cancel" class="remodal-cancel">Cancel</button>
+        <button data-remodal-action="confirm" class="remodal-confirm">OK</button>
+      </div>
+      <div class="remodal" data-remodal-id="bill">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <img src="http://fillmurray.com/400/200">
+        <h1>More about Bill Murray</h1>
+        <p>
+          This is some information about Bill.
+        </p>
+        <br>
+        <button data-remodal-action="cancel" class="no-whiskey">No Whiskey</button>
+        <button data-remodal-action="confirm" class="whiskey">Whiskey</button>
+      </div>
+      <div class="remodal" data-remodal-id="etch-a-sketch">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <img class="etchy" src="images/etch-a-sketch.svg">
+        <h1>Etch-a-Sketch</h1>
+        <p>
+          This is some information about etch-a-sketches.
+        </p>
+        <br>
+        <button data-remodal-action="cancel" class="no-whiskey">No Whiskey</button>
+        <button data-remodal-action="confirm" class="whiskey">Whiskey</button>
+      </div>
+    </div>
+
+    <a class="modal-button" href="#modal">Read More About This Book</a>
+    <a class="modal-button" href="#book">Read More About This Book</a>
+    <a class="modal-button" href="#etch-a-sketch">My etch-a-sketch</a>
+
+    <section class="thirds">
+      <div class="container-max-width">
+        <div class="one-third">
+          <img src="http://fillmurray.com/300/300" alt="Bill Murray">
+          <h1>Bill</h1>
+          <p>Murray</p>
+          <a class="modal-button" href="#bill">Read More About Bill</a>
+        </div>
+        <div class="one-third">
+          <img src="http://fillmurray.com/300/300" alt="Bill Murray">
+          <h1>Bill</h1>
+          <p>Murray</p>
+          <a class="modal-button" href="#bill">Read More About Bill</a>
+        </div>
+        <div class="one-third">
+          <img src="http://fillmurray.com/300/300" alt="Bill Murray">
+          <h1>Bill</h1>
+          <p>Murray</p>
+          <a class="modal-button" href="#bill">Read More About Bill</a>
+        </div>
+      </div>
+    </section>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="js/remodal.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
